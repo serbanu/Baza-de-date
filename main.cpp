@@ -15,37 +15,6 @@ int main() {
 	int operatie;
 	int nouaOperatie;
 
-/*	Persoana *gica = new Persoana();
-	Persoana *ilie = new Persoana();
-	Persoana *enache = new Persoana();
-	Persoana *bianca = new Persoana();
-//	Persoana *auxiliara = new Persoana();
-	char *sirGica = new char[5];
-	strcpy(sirGica, "Gica");
-	char *sirIlie = new char[5];
-	strcpy(sirIlie, "Ilie");
-	char *sirNache = new char[7];
-	strcpy(sirNache, "Enache");
-	char *sirBianca = new char[8];
-	strcpy(sirBianca, "Bianca");
-
-	gica->nPersoana(sirGica);
-	gica->yPersoana(1992);
-	gica->sPersoana('M');
-
-	ilie->nPersoana(sirIlie);
-	ilie->yPersoana(1991);
-	ilie->sPersoana('M');
-
-	enache->nPersoana(sirNache);
-	enache->yPersoana(1990);
-	enache->sPersoana('M');
-
-	bianca->nPersoana(sirBianca);
-	bianca->yPersoana(1993);
-	bianca->sPersoana('F');
-*/
-
 	cout << "Introduceti numarul de persoane din baza de date: ";
 	cin >> no_persona;
 	Baza *baza = new Baza(no_persona);
